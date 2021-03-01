@@ -1,0 +1,3 @@
+<cu-custom bgColor="bg-gradual-blue">
+  <view slot="content">更新日志</view>
+</cu-custom>

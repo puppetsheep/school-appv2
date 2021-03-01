@@ -1,7 +1,59 @@
 <cu-custom bgColor="bg-gradual-blue">
-  <view slot="content">ColorUI 空白模板</view>
+  <view slot="content">校园应用</view>
 </cu-custom>
-<view class="margin-xl padding-xl bg-white radius shadow shadow-lg">
+<view class="grid col-1 padding-sm">
+  <view class="padding-lr-sm">
+    <view class="padding-sm">
+      <navigator url="../readme/index">
+        <view class="bg-gradual-blue padding radius text-center shadow-blur">
+          <view class="text-lg">自述</view>
+          <view class="margin-top-sm text-Abc">Readme</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="padding-sm">
+      <navigator url="../colors/index">
+        <view class="bg-gradual-red padding radius text-center shadow-blur">
+          <view class="text-lg">中国传统色</view>
+          <view class="margin-top-sm text-Abc">Chinese traditional colors</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="padding-sm">
+      <navigator url="../randomly/index">
+        <view class="bg-gradual-orange padding radius text-center shadow-blur">
+          <view class="text-lg">随机抽取小工具</view>
+          <view class="margin-top-sm text-Abc">Randomly draw gadgets</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="padding-sm">
+      <navigator url="../games/index">
+        <view class="bg-gradual-purple padding radius text-center shadow-blur">
+          <view class="text-lg">互动小游戏</view>
+          <view class="margin-top-sm text-Abc">Interactive mini games</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="padding-sm">
+      <navigator url="../update/index">
+        <view class="bg-gradual-green padding radius text-center shadow-blur">
+          <view class="text-lg">更新日志</view>
+          <view class="margin-top-sm text-Abc">Update log</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="padding-sm">
+      <navigator url="../readme/index">
+        <view class="bg-gradual-pink padding radius text-center shadow-blur">
+          <view class="text-lg">打赏</view>
+          <view class="margin-top-sm text-Abc">Reward me</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+<!-- <view class="margin-xl padding-xl bg-white radius shadow shadow-lg">
   <view class="flex justify-center">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='cu-btn round bg-green shadow'> 获取头像昵称 </button>
     <block wx:else>
@@ -14,4 +66,4 @@
 </view>
 <view class="text-center margin-top">
   <text class="text-grey text-xl">{{motto}}</text>
-</view>
+</view> -->

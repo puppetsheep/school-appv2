@@ -1,16 +1,26 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/readme/index",
+    "pages/colors/index",
+    "pages/randomly/index",
+    "pages/games/index",
+    "pages/update/index"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "ColorUI",
+    "navigationBarTitleText": "校园应用",
     "navigationStyle": "custom",
     "navigationBarTextStyle": "white"
   },
   "usingComponents": {
-    "cu-custom": "/colorui/components/cu-custom"
+    "cu-custom": "/colorui/components/cu-custom",
+    "van-button": "@vant/weapp/button/index",
+    "van-stepper": "@vant/weapp/stepper/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-slider": "@vant/weapp/slider/index"
   },
   "sitemapLocation": "sitemap.json"
 }
